@@ -9,23 +9,23 @@
   
   
  <LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="100dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:background="#FFCCFFFC" >
 
      
 
          <TextView
         android:id="@+id/textView1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Which room would you like to go?"
+        android:text="Which room do you want to go?"
         android:textAppearance="?android:attr/textAppearanceLarge" />
     <EditText
         android:id="@+id/editText1"
-        android:layout_width="150dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:text="  " >
@@ -40,14 +40,14 @@
  
   
  <LinearLayout
-     android:layout_width="600dp"
-     android:layout_height="70dp"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
      android:layout_gravity="center"
      android:background="#FFCCCFFC"
      android:orientation="horizontal" >
 <TextView
          android:id="@+id/textView2"
-         android:layout_width="wrap_content"
+         android:layout_width="match_parent"
          android:layout_height="wrap_content"
          android:text="Or select where you want to go"
          android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -55,15 +55,15 @@
 </LinearLayout>
    
      <LinearLayout
-     android:layout_width="wrap_content"
-     android:layout_height="100dp"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
      android:layout_gravity="center"
      android:background="#FFCCCFFC"
-     android:orientation="horizontal" >
+     android:orientation="vertical" >
      <Button
          android:id="@+id/button4"
-         android:layout_width="150dp"
-         android:layout_height="70dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
          android:layout_gravity="center_horizontal"
          android:text="Learning Center" />
 
@@ -71,53 +71,26 @@
 
      <Button
          android:id="@+id/button1"
-         android:layout_width="150dp"
-         android:layout_height="70dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
          android:text="Library" />
 
      <Button
          android:id="@+id/button2"
-         android:layout_width="150dp"
-         android:layout_height="70dp"
-         android:text="Kodiac Corner" />
+          android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+          android:text="Kodiac Corner" />
 
      <Button
          android:id="@+id/button3"
-         android:layout_width="150dp"
-         android:layout_height="70dp"
+          android:layout_width="match_parent"
+         android:layout_height="wrap_content"
          android:text="Book Store" />
  </LinearLayout>
- <LinearLayout
-     android:layout_width="wrap_content"
-     android:layout_height="100dp"
-     android:layout_gravity="center"
-     android:background="#FFCCCFFC"
-     android:orientation="horizontal" >
-     <Button
-         android:id="@+id/button5"
-         android:layout_width="150dp"
-         android:layout_height="70dp"
-         android:layout_gravity="center_horizontal"
-         android:text="Learning Center" />
-
+ 
+         
+         
      
-
-     <Button
-         android:id="@+id/button6"
-         android:layout_width="150dp"
-         android:layout_height="70dp"
-         android:text="Library" />
-
-     <Button
-         android:id="@+id/button7"
-         android:layout_width="150dp"
-         android:layout_height="70dp"
-         android:text="Kodiac Corner" />
-
-     <Button
-         android:id="@+id/button8"
-         android:layout_width="150dp"
-         android:layout_height="70dp"
-         android:text="Book Store" />
-     </LinearLayout>
+ 
 </LinearLayout>
