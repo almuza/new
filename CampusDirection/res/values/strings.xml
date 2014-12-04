@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Campus Direction</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Campus Direction \nBIT272 Final Project</string>
+    <string name="splashText">Cascadia Campus Direction</string>
+    
+</resources>
