@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textDirection"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/where"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#454545"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/roomNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/roomNum" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99CCFF"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/arrayBuilding"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:entries="@array/strArrayBuilding"
+            android:gravity="left" />
+
+        <EditText
+            android:id="@+id/textRoom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:digits="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+            android:ems="10"
+            android:gravity="left"
+            android:hint="Room Number"
+            android:inputType="numberDecimal"
+            android:singleLine="true" >
+
+        </EditText>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/clickDestination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clickDestination" />
+
+    <RadioGroup 
+		android:id="@+id/radiogroup"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/kodiacCornerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/kodiacCorner" />
+
+    <RadioButton
+        android:id="@+id/LibraryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/library" />
+
+    <RadioButton
+        android:id="@+id/bookstoreButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/bookstore" />
+
+    <RadioButton
+        android:id="@+id/mobiusHallButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/mobiusHall" />
+   </RadioGroup>
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search" />
+
+</LinearLayout>

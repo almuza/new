@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="center" 
+    android:background="@drawable/background_main">
+    
+    <Button
+        android:id="@+id/scanButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="@string/scan"
+        android:textColor="#454545"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lookForText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="@string/lookingFor"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scanButton"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="@string/QRCodeLabel"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#454545" />
+
+    <TextView
+        android:id="@+id/textDirection"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lookForText"
+        android:layout_marginTop="17dp"
+        android:gravity="top|center"
+        android:text="@string/directionInfo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+</RelativeLayout>

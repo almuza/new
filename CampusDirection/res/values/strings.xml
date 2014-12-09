@@ -4,6 +4,58 @@
     <string name="app_name">Campus Direction</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Campus Direction \nBIT272 Final Project</string>
-    <string name="splashText">Cascadia Campus Direction</string>
+    <string name="copyright">CCC @ 2014</string>
+    <string name="lookForStr">Looking For: %1$s</string>
+    <string name="QRCodeLabel">Scan New QR Code Again Anytime</string>
+    <string name="directionStr">Please find QR Code near by then click on Scan QR Code button below.</string>
+    
+    <string name="roomNum">Enter your destination room number</string>
+    <string name="clickDestination">Or click on your destination</string>
+    
+   <string name="bookstore">Book Store</string>
+   <string name="mobiusHall">Mobius Hall</string>
+   <string name="library">Library</string>
+   <string name="kodiacCorner">Kodiac Corner</string>
+   <string name="search">Search</string>
+   <string name="where">Where do you want to go?</string>
+   <string name="scan">Scan QR Code</string>
+   <string name="lookingFor">Looking for</string>
+   <string name="directionInfo">Direction information</string>
+   <string name="okBut">OK</string>
+   <string name="cancelBut">Cancel</string>
+   <string name="startOver">Start Over</string>
+   <string name="roomTitle">Room Not Found</string>
+   <string name="bldTitle">Building Not Found</string>
+   <string name="emptyInput">Room Is Empty</string>
+   <string name="msgInput">Room you entered is invalid or empty field. Please enter room number you\'re looking for.</string>
+   <string name="invalidRoom">Room number [%1$s] you entered not found. Please verify room number and re-enter following format Building-Room.\n\nFor example: CC1-041, must include zero (0) in front 41.</string>
+   <string name="invalidBuilding">The building [%1$s] you entered not found.\nPlease verify building and re-enter following format CC1 exmple.</string>
+   
+   <!-- Direction string format -->
+   <string name="roomDir">Take a %1$s and go forward down the hall. The room %2$s is locate on your %3$s.</string>
+   <string name="roomLBA">Rooms 101 thru 104 A-G go straight ahead. Rooms 105 thru 108 A-C, take a RIGHT follow the hall way.</string>
+   <string name="floorDir">Go %1$s to %2$s floor.</string>
+   <string name="roomLoc">Room is on your %1$s.</string>
+   <string name="buildingDir"></string>
+   <string name="specialDir">\n\nNote: Room %1$S is locate %2$s.</string>
+   <string name="cc1FloorDir">Take the main stair from CC1 building to %1$s floor and turn %2$s. The room is locate on your %3$s.</string>
+   <string name="cc3FloorDir">Take the main stair to %1$s floor and turn %2$s. The room is locate on your %3$s.</string>
+   <string name="yourLocation">Your Location:\nBuilding: %1$s, Floor: %2$s</string>
+   <string name="buildingTobuidling">You\'re in building %1$s and want to go to building %2$s.</string>
+   <string name="exitCC1">Exit building from West entrance on the 1st floor. The building %1$s is locate straight ahead on your %2$s.</string>
+   <string name="exitCC3">Exit building from South entrance on the 1st floor. The building %1$s is locate straight ahead on your %2$s.</string>
+   <string name="exitLBA">Exit building from West entrance on the 1st floor. Take a RIGHT, The building %1$s is locate on your %2$s straight ahead.</string>
+   <string name="destination">Turn around.\nRoom %1$s is locate behind you.</string>
+   <string name="roomDirBuilding">Take a %1$s and go forward become building %2$s. The room is locate on your %3$s.</string>
+   <string name="roomFound">You\'re arrived at your destination, look Left or Right to find your room %1$s.</string>
+   <string name="invalidQRCode">You scanned an invalid QR Code\n[%1$s]\nPlease rescan QR code again.</string>
+   
+   <!-- Menu item -->
+   <string name="menuitem_reset">Start Over</string>
+   
+    <!-- Testing string section -->
+    <string name="testLook">Looking String break down:\nBuilding: %1$s\nFloor: %2$s\nRoom Number: %3$s\nRoom Location: %4$s</string>
+    <string name="testDir">Scan String break down:\nBuilding: %1$s\nFloor: %2$s\nRoom Number: %3$s\nRoom Side: %4$s\nIndex Location: %5$s\nLoc Name: %6$s</string>
+    <!-- End testing -->
     
 </resources>
